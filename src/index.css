@@ -1,0 +1,71 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.navbar {
+  width: 60%;
+  margin: 0 auto;
+  position: relative;
+}
+.navbar-brand .logo {
+  width: 100px;
+  height: 100px;
+}
+.logo:hover {
+  cursor: pointer;
+}
+.btn-outline-success {
+  width: 37px;
+  height: 37px;
+  background-image: url("img/Buscador.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  border: none;
+  cursor: pointer;
+  background-color: transparent;
+}
+.btn-outline-success:hover,
+.btn-outline-success:focus,
+.btn-outline-success:active {
+  background-color: red !important;
+}
+.titulo {
+  font-family: "Brush Script MT", cursive;
+  color: rgb(216, 71, 19);
+}
+.Carrito {
+  width: 37px;
+  height: 37px;
+  margin-right: 5px;
+  background-image: url("img/Carrito.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  border: none;
+  cursor: pointer;
+  background-color: transparent;
+}
+.container,
+.text-center {
+  width: 64% !important;
+}
+.link {
+  text-decoration: none;
+  color: black;
+  position: relative;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+.link:after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 0%;
+  height: 2px;
+  background-color: red;
+  transition: 0.3s ease;
+}
+.link:hover:after {
+  width: 100%;
+}
